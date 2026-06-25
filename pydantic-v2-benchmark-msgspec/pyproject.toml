@@ -1,0 +1,12 @@
+[project]
+name = "pydantic-v2-benchmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.138.1",
+    "msgspec>=0.21.1",
+    "pydantic>=2.13.4",
+    "uvicorn>=0.49.0",
+]
